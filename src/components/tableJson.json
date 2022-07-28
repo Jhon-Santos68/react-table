@@ -1,0 +1,754 @@
+{
+  "id": "form_209_2",
+  "column_size": 4,
+  "type": "vertical_horizontal",
+  "fields": {
+    "static": [
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:right>минг сўм</p>",
+            "data_ru": "<p style=text-align:right>тысяч сум</p>",
+            "colspan": "5"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Кўрсаткичлар номи",
+            "data_ru": "Наименование показателей",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Сатр коди",
+            "data_ru": "Код строки",
+            "rowspan": "2"
+          },
+          {
+            "type": "static",
+            "data": "Эркин иқтисодий зона, махсус илмий-технологик зона, туристик-рекреацион зона, эркин савдо зона, махсус саноат зона, кичик саноат зона, технопарк ва кластер ҳудудларидаги фаолияти бўйича",
+            "data_ru": "В части деятельности на территории свободной экономической зоны, специальной научно-технологической зоны,туристско-рекреационной зоны, зоны свободной торговли, особой промышленной зоны, малой промышленной зоны, технопарка и кластера ",
+            "colspan": "2"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "Ҳисобот йили бошидан",
+            "data_ru": "С начала отчетного года"
+          },
+          {
+            "type": "static",
+            "data": "Ўтган йилнинг тегишли даврига",
+            "data_ru": "За соответствующий период прошлого года"
+          }
+        ]
+      },
+      {
+        "class": "static-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "A"
+          },
+          {
+            "type": "static",
+            "data": "Б"
+          },
+          {
+            "type": "static",
+            "data": "1"
+          },
+          {
+            "type": "static",
+            "data": "2"
+          }
+        ]
+      }
+    ],
+    "dynamic": [
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Амалдаги нархларда ишлаб чиқарилган саноат маҳсулоти (ишлар, хизматлар) ҳажми (ҚҚС ва акцизсиз)</p>",
+            "data_ru": "<p style=text-align:left>Объем производства промышленной продукции (работ, услуг) в фактических ценах, (без НДС и акциза)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "101",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Таққослама нархларда ишлаб чиқарилган саноат маҳсулоти (ишлар, хизматлар) ҳажми (ҚҚС ва акцизсиз)</p>",
+            "data_ru": "<p style=text-align:left>Объем производства промышленной продукции (работ, услуг) в сопоставимых ценах (без НДС и акциза)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "102",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Амалдаги нархларда ҳисобот даври охирига тайёр маҳсулот қолдиғи </p>",
+            "data_ru": "<p style=text-align:left>Остатки готовой продукции на конец отчетного периода в фактических ценах</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "103",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Амалдаги нархларда ўз кучи билан бажарилган қурилиш ишлари ҳажми (ҚҚСсиз), ўз эҳтиёжлари учун бажарилган қурилиш-монтаж ишлари, ускуна сотиб олиш харажатлари ва бошқа капитал харажатлардан ташқари</p>",
+            "data_ru": "<p style=text-align:left>Объем строительных работ, выполненных собственными силами в фактических ценах (без НДС), кроме строительно-монтажных работ для собственных нужд, затрат на приобретение оборудования и прочих капитальных затрат </p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "104",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Молиялаштиришнинг барча манбалари ҳисобидан асосий капиталга инвестициялар </p>",
+            "data_ru": "<p style=text-align:left>Инвестиции в основной капитал за счет всех источников финансирования </p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "105",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Сотилган қишлоқ, ўрмон ва балиқ хўжалиги маҳсулоти (ишлар, хизматлар), шу жумладан: </p>",
+            "data_ru": "<p style=text-align:left>Реализация продукции (работ, услуг) сельского, лесного и рыбного хозяйства, в том числе:</p>"
+          },
+          {
+            "type": "static"
+          },
+          {
+            "type": "static"
+          },
+          {
+            "type": "static"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left;padding-left:20px>деҳқончилик ва чорвачилик, овчилик ва бу соҳаларда хизмат кўрсатиш</p>",
+            "data_ru": "<p style=text-align:left;padding-left:20px>растениеводство и животноводство, охота и предоставление услуг в этих областях</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "106",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left;padding-left:20px>ўрмончилик ва ёғоч тайёрлаш</p>",
+            "data_ru": "<p style=text-align:left;padding-left:20px>лесоводство и лесозаготовки</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "107",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left;padding-left:20px>балиқ овлаш ва аквакультура</p>",
+            "data_ru": "<p style=text-align:left;padding-left:20px>рыболовство и аквакультура</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "108",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот йили бошига мазкур корхонада меҳнат дафтарчалари мавжуд бўлган  ходимлар сони, киши</p>",
+            "data_ru": "<p style=text-align:left>Численность работников, имеющих трудовые книжки в данной организации, на начало отчетного года, человек</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "109",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Қабул қилинган ходимлар, киши</p>",
+            "data_ru": "<p style=text-align:left>Принято работников, человек</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "110",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Кетган ходимлар, киши</p>",
+            "data_ru": "<p style=text-align:left>Выбыло работников, человек</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "111",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даври охирига мазкур корхонада меҳнат дафтарчалари мавжуд бўлган ходимлар сони, киши</p>",
+            "data_ru": "<p style=text-align:left>Численность работников, имеющих трудовые книжки в данной организации, на конец отчетного периода, человек</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "112",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ўртача иш ҳақини ҳисоблаш учун қабул қилинадиган мазкур корхона, ташкилотда меҳнат дафтарчалари мавжуд бўлган ходимлар сони, киши</p>",
+            "data_ru": "<p style=text-align:left>Численность работников, имеющих трудовые книжки на данном предприятии, организации, принимаемая для исчисления средней заработной платы, человек</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "113",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Жисмоний шахсларга ҳисобланган меҳнатга ҳақ тўлаш тарзидаги даромадлар – жами (ташқи ўриндошлар, шу билан бирга, фуқаролик-ҳуқуқий тусда тузилган шартномалар асосида ишлаётган ва мазкур корхона, ташкилотда меҳнат дафтарчалари мавжуд бўлмаган бошқа ходимларни қўшган ҳолда) </p>",
+            "data_ru": "<p style=text-align:left>Начисленные доходы физических лиц в виде оплаты труда – всего (включая внешних совместителей, а также лиц, выполнявших работы  по договорам гражданско-правового характера и других лиц, не имеющих трудовые книжки  на данном предприятии, организации)</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "114",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left;padding-left:20px>шундан: мазкур корхона, ташкилотда меҳнат дафтарчалари мавжуд бўлган жисмоний шахсларга ҳисобланган меҳнатга ҳақ тўлаш тарзидаги даромадлар</p>",
+            "data_ru": "<p style=text-align:left;padding-left:20px>из нее: начисленные доходы физических лиц, имеющих трудовые книжки на данном предприятии, организации, в виде оплаты труда</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "115",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот йили бошига иш ўринлари сони, ўрин</p>",
+            "data_ru": "<p style=text-align:left>Количество рабочих мест на начало отчетного года, мест</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "116",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даврида янги очилган иш ўринлари сони, ўринлар</p>",
+            "data_ru": "<p style=text-align:left>Число вновь введенных рабочих мест за отчетный период, мест</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "117",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даврида қисқартирилган иш ўринлари сони, ўринлар</p>",
+            "data_ru": "<p style=text-align:left>Число выбывших рабочих мест за отчетный период, мест</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "118",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даври охирига иш ўринлари сони, ўринлар</p>",
+            "data_ru": "<p style=text-align:left>Количество рабочих мест на конец отчетного периода, мест</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "119",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даври охирига мавжуд бўш иш ўринлари сони, ўринлар</p>",
+            "data_ru": "<p style=text-align:left>Число вакантных рабочих мест на конец отчетного периода, мест</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "120",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Фойда солиғини тўлаганга қадар фойда (зарар (-)</p>",
+            "data_ru": "<p style=text-align:left>Прибыль (убыток (-) до уплаты налога на прибыль </p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "121",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даври охирида дебиторлик қарзи</p>",
+            "data_ru": "<p style=text-align:left>Дебиторская задолженность на конец отчетного периода</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "122",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Ҳисобот даври охирида кредиторлик қарзи</p>",
+            "data_ru": "<p style=text-align:left>Кредиторская задолженность на конец отчетного периода</p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "123",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "editable",
+            "input_type": "number",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      },
+      {
+        "class": "dynamic-row",
+        "columns": [
+          {
+            "type": "static",
+            "data": "<p style=text-align:left>Сизнинг ташкилотингиз қуйидагилардан қайси бирига киришини белгиланг: эркин иқтисодий зона -1, кичик саноат зонаси -2, технопарк-3,  кластер  – 4, махсус илмий-технологик зона - 5,  махсус саноат зона-6, эркин савдо зона-7, туристик-рекреацион зона -8</p>",
+            "data_ru": "<p style=text-align:left>Укажите признак, куда входит Ваша организация, из нижеперечисленных: свободная экономическая зона-1, малая промышленная зона-2,  технопарк-3, кластер-4, специальная научно-технологическая зона-5, особая промышленная зона-6, зона свободной торговли – 7, туристско-рекреационная зона– 8 </p>"
+          },
+          {
+            "type": "dynamic",
+            "data": "124",
+            "store_type": "unique_id",
+            "column_id": "g1"
+          },
+          {
+            "type": "dynamic",
+            "mode": "autocomplete",
+            "input_type": "select",
+            "group_name": "one_to_eight",
+            "column_id": "g2"
+          },
+          {
+            "type": "dynamic",
+            "data": "x",
+            "column_id": "g3"
+          }
+        ]
+      }
+    ]
+  }
+}

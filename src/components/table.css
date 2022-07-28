@@ -1,0 +1,7 @@
+td {
+  width: 100px;
+  height: 20px;
+  max-width: 100px;
+  max-height: 20px;
+  overflow: hidden;
+}
